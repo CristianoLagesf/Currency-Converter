@@ -1,0 +1,68 @@
+.cardContainer {
+	background-color: #362e6a;
+	border-radius: 8px;
+	box-shadow: 0 3px 10px rgb(102, 92, 92);
+	padding-inline: 50px;
+	padding-block: 10px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: #ffffff;
+}
+.selectContainer {
+	display: flex;
+	flex-direction: column;
+}
+.select {
+	width: 300px;
+	height: 30px;
+	border: none;
+}
+
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+}
+.input {
+	font-weight: bold;
+	width: 300px;
+	height: 30px;
+	border: none;
+
+	box-sizing: border-box;
+}
+.button {
+	background-color: #fed700;
+	height: 30px;
+	width: 300px;
+}
+
+.ContainerErrorMensage {
+	margin: 0px;
+	padding: 0px;
+}
+.ContainerResult {
+	width: 300px;
+	margin-top: 15px;
+}
+.ListResult {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.ListResult li {
+	margin-bottom: 10px;
+}
+.titleResult {
+	width: 70px;
+}
+.itemResult {
+	display: flex;
+	border-bottom: 1px solid #ffffff;
+}
+.textResult {
+	color: #fed700;
+	margin-left: 20px;
+}
